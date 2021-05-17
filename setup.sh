@@ -27,8 +27,10 @@ if [ ! -d "/data" ]; then
 fi
 
 cp bee.yaml /data/bee.yaml
-mkdir -p /data/.bee
-cp passwd /data/.bee/passwd
+if [ ! -d "/data/.bee" ]; then 
+	mkdir -p /data/.bee
+fi
+echo "13549644913" > /data/.bee/passwd
 
 echo "please run 'nohup bee start --config /data/bee.yaml >> /data/bee.log 2>&1 & '"
 echo View the running log \'tail -f /data/bee.log\'
