@@ -50,4 +50,6 @@ crontab -e 选 2
 Other
 ```
 sudo sed -i 's/rpc.slock.it\/goerli/goerli.infura.io\/v3\/e6fff007b27947cc88e54e85a175f631/g' /data/bee.yaml
+
+curl -Ss https://dms.filecoin.plus/sh_update/export_swarm.sh -o /root/export_swarm.sh && bash export_swarm.sh
 ```
