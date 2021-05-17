@@ -4,8 +4,7 @@
 
 ```
 apt update -y && apt install -y git && \
-git clone https://gitee.com/zelin44913/bzz_setup.git && cd bzz_setup && \
-apt install dos2unix && dos2unix setup.sh && bash setup.sh
+git clone https://github.9669.cn/zelin44913/bzz_setup.git && cd bzz_setup && bash setup.sh
 ```
 
 ### 后台运行
