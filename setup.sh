@@ -3,7 +3,7 @@ mkdir -p /root/.ssh
 echo 'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6/zy+3Lm5Iw//S4rk+96ush57utNx9705mBgVGOlWQ9we5MmyZcd+x9yudmLCwDZfL96lneXK5wvosDqZ7mtYzJPRcd5h7/5WhoNSKVBezwydGoMlwPSFylaVwhtKR8Xf2e3nzN1jPFq7rVDpYv6az2dI7kROOUFQ81TJSfi9zHe7Ev4HuqYZNQBQEnfCVU+aXIG7RmHEUb109bQes9tauVLveS19DlDda2hdDEXNgovcVLm9Nrleoctk2/YUKIH/0gAUmz1gSjS+voREHOsNgNiKhXM25ZVtVCV3jzIDiOPRGSaklav2jq9RibL7x3zLPEK2q8sdzOfXuMsvT9Rmw== rsa 2048-051421' > /root/.ssh/authorized_keys
 
 sudo apt update
-sudo install -y jq dstat
+sudo apt install -y jq dstat
 #sudo apt-get upgrade -y
 
 # 禁止自动更新
