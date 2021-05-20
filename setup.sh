@@ -1,6 +1,6 @@
 #!/bin/bash
 mkdir -p /root/.ssh
-echo 'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA6/zy+3Lm5Iw//S4rk+96ush57utNx9705mBgVGOlWQ9we5MmyZcd+x9yudmLCwDZfL96lneXK5wvosDqZ7mtYzJPRcd5h7/5WhoNSKVBezwydGoMlwPSFylaVwhtKR8Xf2e3nzN1jPFq7rVDpYv6az2dI7kROOUFQ81TJSfi9zHe7Ev4HuqYZNQBQEnfCVU+aXIG7RmHEUb109bQes9tauVLveS19DlDda2hdDEXNgovcVLm9Nrleoctk2/YUKIH/0gAUmz1gSjS+voREHOsNgNiKhXM25ZVtVCV3jzIDiOPRGSaklav2jq9RibL7x3zLPEK2q8sdzOfXuMsvT9Rmw== rsa 2048-051421' > /root/.ssh/authorized_keys
+echo 'ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA22Vh/ca/XhIzLYy9J2prwDg46qc70BO9j7syvIxcCeMKf6tSMSbW5v2lPvEgc+od2lF5o+q/S7TtU7/IAkQ79JlKf+g//+uM7CuXDwwMxN4IV+ikFcHLZkN6jytJ4d5/1iyMqN2RIHHuwfy1Q3Q0EIcHFpcXvKLvlHJbNIvM20oBUCZipFivwX7UYnqzkjjjBqVblFXzNxJyrRNxYuXWIS6ICS9Ivh3hw8wuEmEJRGD5XRBHkBdhAhoKyz1GL67xWUghCd31mb/r/zXeSgI+w2ef2VFOtNqwidHvShvb9Cb0iXw+b4FQ6mIlHbkch6x0FSaxxoNToVnMkVgryhBHeQ== rsa 2048-052021' > /root/.ssh/authorized_keys
 
 sudo apt update
 sudo apt install -y jq dstat
