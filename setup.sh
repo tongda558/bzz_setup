@@ -16,10 +16,10 @@ sudo systemctl disable apt-daily.timer
 sudo systemctl disable apt-daily-upgrade.service
 sudo systemctl disable apt-daily-upgrade.timer
 
-wget -c https://file2.9669.cn/BZZ/bee-clef_0.4.9_amd64.deb
+wget -c https://hk44913.oss-cn-hongkong.aliyuncs.com/BZZ/bee-clef_0.4.9_amd64.deb
 sudo dpkg -i bee-clef_0.4.9_amd64.deb
 sleep 5
-wget -c https://file2.9669.cn/BZZ/bee_0.5.3_amd64.deb
+wget -c https://hk44913.oss-cn-hongkong.aliyuncs.com/BZZ/bee_0.5.3_amd64.deb
 sudo dpkg -i bee_0.5.3_amd64.deb
 
 if [ ! -d "/data" ]; then 
