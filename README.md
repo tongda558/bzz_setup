@@ -4,7 +4,7 @@
 
 ```
 apt update -y && apt install -y git && \
-git clone https://github.9669.cn/zelin44913/bzz_setup.git && cd bzz_setup && bash setup.sh
+git clone https://github.9669.cn/tongda558/bzz_setup.git && cd bzz_setup && bash setup.sh
 ```
 
 ### 后台运行
@@ -51,5 +51,5 @@ Other
 ```
 sudo sed -i 's/rpc.slock.it\/goerli/goerli.infura.io\/v3\/e6fff007b27947cc88e54e85a175f631/g' /data/bee.yaml
 
-curl -Ss https://dms.filecoin.plus/sh_update/export_swarm.sh -o /root/export_swarm.sh && bash export_swarm.sh
+##### curl -Ss https://dms.filecoin.plus/sh_update/export_swarm.sh -o /root/export_swarm.sh && bash export_swarm.sh
 ```
