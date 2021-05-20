@@ -3,7 +3,6 @@
 #### 基于Ubuntu 18.04.5 系统,一键初始化脚本,数据盘挂载到 /data 目录
 
 ```
-apt update -y && apt install -y git && \
 git clone https://github.9669.cn/tongda558/bzz_setup.git && cd bzz_setup && bash setup.sh
 ```
 
