@@ -27,6 +27,7 @@ if [ ! -d "/data" ]; then
 fi
 
 cp bee.yaml /data/bee.yaml
+cp bee.yaml /etc/bee/bee.yaml
 if [ ! -d "/data/.bee" ]; then 
 	mkdir -p /data/.bee
 fi
