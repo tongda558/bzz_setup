@@ -32,6 +32,6 @@ if [ ! -d "/data/.bee" ]; then
 	mkdir -p /data/.bee
 fi
 echo "13549644913" > /data/.bee/passwd
-
+sudo bee-get-addr
 echo "please run 'nohup bee start --config /data/bee.yaml >> /data/bee.log 2>&1 & '"
 echo View the running log \'tail -f /data/bee.log\'
