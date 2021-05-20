@@ -9,7 +9,7 @@ git clone https://github.9669.cn/zelin44913/bzz_setup.git && cd bzz_setup && bas
 
 ### 后台运行
 ```
-nohup bee start --config /data/bee.yaml >> /data/bee.log 2>&1 &
+nohup bee start --config /data/bee.yaml > /data/bee.log 2>&1 &
 ```
 ### 查看运行日志
 ```
